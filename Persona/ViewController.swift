@@ -8,12 +8,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var weatherLabel: UILabel!
+    @IBOutlet weak var scheduleLabel: UILabel!
+    @IBOutlet weak var plansLabel: UILabel!
+    
+    @IBOutlet weak var weatherTextBox: UITextView!
+    @IBOutlet weak var scheduleTextBox: UITextView!
+    @IBOutlet weak var plansTextBox: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        getWeather(city: "Tampa")
         
+        let babyBlueColor = UIColor(displayP3Red: 131.0/255.0, green: 181.0/255.0, blue: 248.0/255.0, alpha: 1)
+        self.view.backgroundColor = babyBlueColor
+        
+        weatherLabel.textColor = UIColor.white
+        scheduleLabel.textColor = UIColor.white
+        plansLabel.textColor = UIColor.white
+        
+        weatherLabel.font = UIFont(name: "HiraginoSans-W6", size: 24)
+        scheduleLabel.font = UIFont(name: "HiraginoSans-W6", size: 24)
+        plansLabel.font = UIFont(name: "HiraginoSans-W6", size: 24)
+        
+        weatherTextBox.layer.cornerRadius = 10
+        scheduleTextBox.layer.cornerRadius = 10
+        plansTextBox.layer.cornerRadius = 10
+        
+        getWeather(city: "Tampa")
+        imageView.image = UIImage(named: "suncartoon.PNG")
         
     }
 

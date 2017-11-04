@@ -15,6 +15,7 @@
 		207202BA1FAE11DB0010F2B1 /* PersonaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207202B91FAE11DB0010F2B1 /* PersonaTests.swift */; };
 		207202C51FAE11DB0010F2B1 /* PersonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207202C41FAE11DB0010F2B1 /* PersonaUITests.swift */; };
 		207202D31FAE13C00010F2B1 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207202D21FAE13C00010F2B1 /* WeatherGetter.swift */; };
+		207202D51FAE57700010F2B1 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207202D41FAE57700010F2B1 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		207202C41FAE11DB0010F2B1 /* PersonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaUITests.swift; sourceTree = "<group>"; };
 		207202C61FAE11DB0010F2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		207202D21FAE13C00010F2B1 /* WeatherGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
+		207202D41FAE57700010F2B1 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				207202A41FAE11DB0010F2B1 /* AppDelegate.swift */,
 				207202A61FAE11DB0010F2B1 /* ViewController.swift */,
 				207202D21FAE13C00010F2B1 /* WeatherGetter.swift */,
+				207202D41FAE57700010F2B1 /* Weather.swift */,
 				207202A81FAE11DB0010F2B1 /* Main.storyboard */,
 				207202AB1FAE11DB0010F2B1 /* Assets.xcassets */,
 				207202AD1FAE11DB0010F2B1 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207202D51FAE57700010F2B1 /* Weather.swift in Sources */,
 				207202A71FAE11DB0010F2B1 /* ViewController.swift in Sources */,
 				207202D31FAE13C00010F2B1 /* WeatherGetter.swift in Sources */,
 				207202A51FAE11DB0010F2B1 /* AppDelegate.swift in Sources */,
