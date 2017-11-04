@@ -35,9 +35,30 @@ class ViewController: UIViewController{
         scheduleLabel.font = UIFont(name: "HiraginoSans-W6", size: 24)
         plansLabel.font = UIFont(name: "HiraginoSans-W6", size: 24)
         
+        weatherTextBox.font = UIFont(name: "HiraginoSans-W3", size: 14)
+        scheduleTextBox.font = UIFont(name: "HiraginoSans-W3", size: 14)
+        plansTextBox.font = UIFont(name: "HiraginoSans-W3", size: 14)
+        
+        
         weatherTextBox.layer.cornerRadius = 10
         scheduleTextBox.layer.cornerRadius = 10
         plansTextBox.layer.cornerRadius = 10
+       
+        
+        //------------------------------
+//        var imgListArray :NSMutableArray = []
+//        for countValue in 1...11
+//        {
+//
+//            var strImageName : String = "c\(countValue).png"
+//            var image  = UIImage(named:strImageName)
+//            imgListArray .addObject(image)
+//        }
+//
+//        self.imageView.animationImages = imgListArray;
+//        self.imageView.animationDuration = 1.0
+//        self.imageView.startAnimating()
+        //------------------------------
         
         getWeather(city: "Tampa")
         imageView.image = UIImage(named: "suncartoon.PNG")
